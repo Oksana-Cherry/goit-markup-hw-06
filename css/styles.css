@@ -895,8 +895,8 @@ border-color 250ms var(--timing-function);
   transform: translate(-30px,-45px);
   color: var(--accent-color);
 }
-.form-message:focus + message-label,
-.form-message:not(:placeholder-shown) + message-label {
+.form-message:focus + .message-label,
+.form-message:not(:placeholder-shown) + .message-label {
   transform: translatey(-40px);
   color: var(--accent-color);
 }
