@@ -868,9 +868,9 @@ resize: none;
   transform: translateY(-50%); 
   transition: transform 250ms var(--timing-function);
 }
-/*.form-message:focus::placeholder{
+.form-message:focus::placeholder {
   color: var(--accent-color);
-}*/
+}
 
 
 .form-input:focus,
@@ -889,6 +889,7 @@ resize: none;
 .form-input:focus ~ .form-icon{
   fill: var(--accent-color);
 }
+
 .option-label {
   display: flex;
   align-items: center;
@@ -932,10 +933,10 @@ resize: none;
   fill:  var(--text-fon);
   transition: fill 250ms var(--timing-function);
 }
-/*.checkbox:checked + .form-icon-checkbox {
+.checkbox:checked + .form-icon-checkbox {
   background-origin: content-box;
   fill: #C4C4C4;
-}*/
+}
 
 .form-option-span {
   font-weight: normal;
