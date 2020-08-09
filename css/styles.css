@@ -881,8 +881,6 @@ border-color 250ms var(--timing-function);
   padding: 12px 16px;
 }
 
-
-
 .form-input:focus,
 .form-message:focus,
 .form-input:not(:placeholder-shown),
@@ -897,7 +895,7 @@ border-color 250ms var(--timing-function);
 }
 .form-message:focus + .message-label,
 .form-message:not(:placeholder-shown) + .message-label {
-  transform: translatey(-40px);
+  transform: translateY(-40px);
   color: var(--accent-color);
 }
 
