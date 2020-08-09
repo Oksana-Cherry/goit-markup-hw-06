@@ -883,7 +883,7 @@ resize: none;
 .form-input:focus + .form-label, 
 .form-input:not(:placeholder-shown) + .form-label {
   transform: translateY(-40px);
-  left: -42px;
+  left: -20px;
   color: var(--accent-color);
 }
 .form-input:focus ~ .form-icon{
