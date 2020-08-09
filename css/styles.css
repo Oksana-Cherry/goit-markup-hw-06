@@ -837,6 +837,8 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px;
 background-color: transparent;
+transition: transform 250ms var(--timing-function),
+border-color 250ms var(--timing-function);     
 
 }
 .form-message {
@@ -854,7 +856,10 @@ box-sizing: border-box;
 border-radius: 4px;
 margin-bottom: 28px;
 resize: none;
+transition: color 250ms var(--timing-function), 
+border-color 250ms var(--timing-function);
 }
+
 .form-message:focus::placeholder {
   color: var(--accent-color);
 }
@@ -882,8 +887,7 @@ resize: none;
 }
 .form-input:focus + .form-label, 
 .form-input:not(:placeholder-shown) + .form-label {
-  transform: translateY(-40px);
-  left: 16px;
+  transform: translate(-30px,-45px);
   color: var(--accent-color);
 }
 .form-input:focus ~ .form-icon{
@@ -932,7 +936,7 @@ resize: none;
   transition: fill 250ms var(--timing-function);
 }
 .checkbox:focus ~ .form-icon-checkbox {
-  background-origin: content-box;
+  background-origin: border-box;
   fill: #C4C4C4;
 }
 
